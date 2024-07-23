@@ -32,17 +32,17 @@ The purpose of this analysis was to build and evaluate a machine learning model 
 6. Evaluate the accurace of the model
 
 ## Results
+* Logistic Regression Machine Learning Model:
+*                          precision    recall  f1-score   support
+        Healthy Loan         1.00      0.99      1.00     18765
+        High-risk Loan       0.85      0.91      0.88       619
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+        accuracy                               0.99     19384
+        macro avg          0.92      0.95      0.94     19384
+        weighted avg       0.99      0.99      0.99     19384
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+<!--* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )-->
+* The logistic regression model performed exceptionally well in predicting healthy loans, with a precision and recall of 1.00 and 0.99 respectively.
+* The model also performed well in predicting high-risk loans, with a precision of 0.85 and a recall of 0.91.
+* Overall, the model achieved an accuracy of 99%, indicating a high level of correctness in its predictions therefore it is recommended to use this machine learning model to predict credit risk.
