@@ -8,7 +8,7 @@ Steps
 2. Create a Logistic Regression Model with the Original Data
 3. Write a Credit Risk Analysis Report
 
-# Module 12 Report Template
+# Module 20 Report Template
 
 ## Overview of the Analysis
 
